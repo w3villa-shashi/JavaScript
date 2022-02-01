@@ -1,0 +1,350 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    justify-content: center;
+    text-align: center;
+    width: 100%; 
+    box-shadow: 2px 2px 2px white;    
+}
+.navbar{
+width: 96%;
+display: flex;
+margin: 0 auto;
+justify-content: center;
+text-align: center;
+position: fixed;
+
+}
+.navbar .head-text {
+width: 48%;
+padding: 15px 25px;
+color: white;
+}
+.nav-items{
+    width: 48%;
+}
+.list-items{
+    display: flex;
+    justify-content: center;
+    
+}
+ul li{
+    list-style: none;
+    padding: 15px 25px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+.download{
+    background-color: blue;
+}
+.background{
+  background-image: url('images/building.jpg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: hsl(188, 89%, 36%);
+  background-size: cover;
+    
+}
+.section-1{
+  height: 120vh;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+.Item1{
+    width: 48%;
+    margin:  0 auto;
+    padding-top: 50vh;
+    
+}
+button{
+   
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn1{
+    font-size: 18px;
+    padding: 0 30px;
+    padding-top: 16px;
+    padding-bottom: 2px;
+}
+.btn2{
+    background:none;
+    color: white;
+    padding: 15px 30px;
+    
+}
+.Item1_heading{
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: white;
+}
+.Item1_para{
+    padding-bottom: 35px;
+    font-size: 20px;
+    color: white;
+}
+.section-2{
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    
+}
+.section-2_item{
+    width: 25%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0 ;
+  
+}
+i{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.white{
+    color: white;
+}
+.colour-1{
+    background-color: #8a00c0;
+  
+}
+.colour-2{
+    background-color: #b500b7;
+}
+.colour-3{
+    background-color: #00ad9e;
+}
+.colour-4{
+    background-color: #3fa8f8;
+}
+.section-2_item{
+    padding-bottom: 35px;
+}
+.Item2_heading{
+    padding-bottom: 20px;
+    font-size: 40px;
+    }
+.section-3{
+    background-color: #f5f5f5;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.sec3Div{
+    
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.WorkItem{
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; 
+    display: flex;
+    padding-top: 81px;
+}
+.section2para1{
+    padding-bottom: 35px;
+}
+.Itemdiv2{
+    width: 27%;
+    padding-right: 20px;
+}
+.Sec3Iconcolor{
+    color: orange;
+}
+.Sec3Iconcolor1{
+    color: rgb(0, 225, 255);
+}
+.Sec3Iconcolor2{
+    color: rgb(255, 72, 0);
+}
+.Comman-font-size{
+    font-size: 20px;
+}
+.section4{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.section4Heading{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+   
+}
+.comman-padding{
+    padding-bottom: 40px;
+}
+.section4Item{
+    display: flex;
+    
+}
+.section4TextItem{
+    padding-left: 90px;
+}
+.secdiv4{
+    width: 80%;
+    margin: 0 auto;
+}
+.sec4padding{
+    padding-bottom: 16px;
+}
+.section-left{
+    flex-direction: row-reverse;
+    margin: 40px;
+}
+.second_img{
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.plans-body {
+    background: #391dc9;
+  }
+  .plans-detail .col-4 {
+    padding: 3rem 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    max-width: 30% !important;
+    margin: 15px;
+    border-radius: 3px;
+  }
+  .plans-detail h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  p.pricing-value {
+    font-size: 3rem;
+  }
+  p.pricing-value sup {
+    top: -1.8rem;
+  }
+  p.pricing-value span {
+    font-size: 5rem;
+  }
+
+  .plans-detail button {
+    padding: 10px 25px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;            
+    font-weight: bold;
+    margin-top: 3rem;
+  }
+  .first-plan {
+    background-image: linear-gradient(#777171, #777171), url(images/background.jpg);
+  }
+  .second-plan {
+    background-image: linear-gradient(#46b19d, #28a7459c), url(images/background.jpg);
+  }
+  .third-plan {
+    background-image: linear-gradient(#f66455, #28a7459c), url(images/background.jpg);
+  }
+   #team-data div.team-wrap {
+    display: flex;
+    padding: 1.5rem;
+  }
+  .member-img{
+    display: flex;
+    justify-content: space-around;
+  }
+  .member-img img {
+    width: 85%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #00000078;
+  }
+  .member-detail {
+    padding: 10px 0;
+  }
+  .member-detail h3 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .member-detail h5 {
+      font-weight: 600;
+      color: #577373;
+      font-size: 18px;
+  }
+  .text-primary .fa-twitter:before {
+    font-size: 18px;
+  }
+  .text-primary span {
+    text-transform: lowercase;
+  }
+  .contact-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .plans-body h1, .plans-body p, .contact-body .head h1, .contact-body .head p {
+    color: #fff;
+  }
+  .contact-detail {
+    background: #fff;
+    padding: 3rem;
+  }
+  .contact-detail input, .contact-detail textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin: 15px;
+  }
+  .contact-detail textarea {
+    height: 5rem;
+    padding-top: 0;
+  }
+  .contact-detail button {
+    background: #391dc9;
+    padding: 10px 35px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 15px;
+  }
+  .contact-detail button i {
+    font-size: 18px;
+    padding-right: 5px;
+  }
+  .contact-icon {
+    color: #391dc9
+  }
+  .social-body {
+    background: #391dc9;
+  }
+  section.social-body p i {
+    padding: 20px 10px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .footer-body {
+    background: #2f1a97;
+  }
+  section.footer-body p {
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .footer-body span{
+    font-weight: bold;
+  }
